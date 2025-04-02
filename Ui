@@ -181,6 +181,19 @@ function NEVERLOSE:Theme(name)
 		NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(50, 40, 70)
 		NEVERLOSE.Themes.ButtonBlackgroundColor = Color3.fromRGB(25, 20, 40)
 	end
+
+	if name == "royal gold" then
+		NEVERLOSE.Themes.BackgroundColor = Color3.fromRGB(20, 15, 35)  -- Deep purple base
+		NEVERLOSE.Themes.BlackColor = Color3.fromRGB(10, 5, 20)       -- Darker purple
+		NEVERLOSE.Themes.HeaderColor = Color3.fromRGB(25, 20, 45)     -- Medium purple
+		NEVERLOSE.Themes.TraceColor = Color3.fromRGB(40, 30, 70)      -- Lighter purple accent
+		NEVERLOSE.Themes.MainColor = Color3.fromRGB(212, 175, 55)    -- Rich gold
+		NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(50, 40, 20)   -- Darkened gold shadow
+		NEVERLOSE.Themes.SectionColor = Color3.fromRGB(30, 25, 50)    -- Purple section
+		NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(212, 175, 55)    -- Gold stroke
+		NEVERLOSE.Themes.ButtonBlackgroundColor = Color3.fromRGB(35, 30, 60)  -- Purple button bg
+		NEVERLOSE.Themes.AccentColor = Color3.fromRGB(230, 190, 80)   -- Brighter gold accent
+	end
 end
 
 function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
