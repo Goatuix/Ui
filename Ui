@@ -135,6 +135,7 @@ print(NEVERLOSE._Name..":",NEVERLOSE._Version..':',[[https://neverlose.cc/]],": 
 function NEVERLOSE:Theme(name)
     name = tostring(name or "original"):lower()
     
+    -- Original Theme
     if name == "original" then
         NEVERLOSE.Themes.BackgroundColor = Color3.fromRGB(1, 17, 33)
         NEVERLOSE.Themes.BlackColor = Color3.fromRGB(9, 9, 19)
@@ -147,6 +148,7 @@ function NEVERLOSE:Theme(name)
         NEVERLOSE.Themes.ButtonBackgroundColor = Color3.fromRGB(2, 5, 22)
     end
 
+    -- Nightly Theme
     if name == "nightly" then
         NEVERLOSE.Themes.BackgroundColor = Color3.fromRGB(43, 43, 43)
         NEVERLOSE.Themes.BlackColor = Color3.fromRGB(16, 16, 16)
@@ -159,6 +161,7 @@ function NEVERLOSE:Theme(name)
         NEVERLOSE.Themes.ButtonBackgroundColor = Color3.fromRGB(26, 26, 26)
     end
 
+    -- Dark Theme
     if name == "dark" then
         NEVERLOSE.Themes.BackgroundColor = Color3.fromRGB(37, 37, 37)
         NEVERLOSE.Themes.BlackColor = Color3.fromRGB(8, 8, 8)
@@ -171,6 +174,7 @@ function NEVERLOSE:Theme(name)
         NEVERLOSE.Themes.ButtonBackgroundColor = Color3.fromRGB(13, 13, 13)
     end
 
+    -- Purple Theme
     if name == "purple" then
         NEVERLOSE.Themes.BackgroundColor = Color3.fromRGB(30, 20, 50)
         NEVERLOSE.Themes.BlackColor = Color3.fromRGB(15, 10, 25)
@@ -183,6 +187,7 @@ function NEVERLOSE:Theme(name)
         NEVERLOSE.Themes.ButtonBackgroundColor = Color3.fromRGB(25, 20, 40)
     end
 
+    -- Royal Gold Theme
     if name == "royal gold" then
         NEVERLOSE.Themes.BackgroundColor = Color3.fromRGB(20, 15, 35)
         NEVERLOSE.Themes.BlackColor = Color3.fromRGB(10, 5, 20)
@@ -196,18 +201,35 @@ function NEVERLOSE:Theme(name)
         NEVERLOSE.Themes.AccentColor = Color3.fromRGB(230, 190, 80)
     end
 
+    -- Obsidian Luxe Theme
     if name == "obsidian luxe" then
-        NEVERLOSE.Themes.BackgroundColor = Color3.fromRGB(5, 5, 10)          -- Deep obsidian black
-        NEVERLOSE.Themes.BlackColor = Color3.fromRGB(2, 2, 5)                 -- Near-black
-        NEVERLOSE.Themes.HeaderColor = Color3.fromRGB(10, 10, 20)             -- Dark metallic
-        NEVERLOSE.Themes.TraceColor = Color3.fromRGB(20, 20, 40)              -- Subtle glow
-        NEVERLOSE.Themes.MainColor = Color3.fromRGB(0, 200, 255)              -- Vivid electric blue
-        NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(0, 50, 80)            -- Deep blue shadow
-        NEVERLOSE.Themes.SectionColor = Color3.fromRGB(15, 15, 25)            -- Dark panel
-        NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(100, 180, 255)          -- Light blue border
-        NEVERLOSE.Themes.ButtonBackgroundColor = Color3.fromRGB(10, 15, 25)   -- Dark button
-        NEVERLOSE.Themes.AccentColor = Color3.fromRGB(200, 200, 220)          -- Metallic silver
-        NEVERLOSE.Themes.HighlightColor = Color3.fromRGB(0, 255, 255)         -- Cyan highlight
+        NEVERLOSE.Themes.BackgroundColor = Color3.fromRGB(5, 5, 10)
+        NEVERLOSE.Themes.BlackColor = Color3.fromRGB(2, 2, 5)
+        NEVERLOSE.Themes.HeaderColor = Color3.fromRGB(10, 10, 20)
+        NEVERLOSE.Themes.TraceColor = Color3.fromRGB(20, 20, 40)
+        NEVERLOSE.Themes.MainColor = Color3.fromRGB(0, 200, 255)
+        NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(0, 50, 80)
+        NEVERLOSE.Themes.SectionColor = Color3.fromRGB(15, 15, 25)
+        NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(100, 180, 255)
+        NEVERLOSE.Themes.ButtonBackgroundColor = Color3.fromRGB(10, 15, 25)
+        NEVERLOSE.Themes.AccentColor = Color3.fromRGB(200, 200, 220)
+        NEVERLOSE.Themes.HighlightColor = Color3.fromRGB(0, 255, 255)
+    end
+
+    -- CYBER NEON (NEW STANDOUT THEME)
+    if name == "cyber neon" then
+        NEVERLOSE.Themes.BackgroundColor = Color3.fromRGB(5, 5, 10)           -- Void black
+        NEVERLOSE.Themes.BlackColor = Color3.fromRGB(0, 0, 0)                 -- Pure black
+        NEVERLOSE.Themes.HeaderColor = Color3.fromRGB(15, 5, 25)              -- Dark purple
+        NEVERLOSE.Themes.TraceColor = Color3.fromRGB(30, 0, 50)               -- Deep magenta glow
+        NEVERLOSE.Themes.MainColor = Color3.fromRGB(255, 0, 255)             -- Hot pink
+        NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(80, 0, 80)            -- Dark pink shadow
+        NEVERLOSE.Themes.SectionColor = Color3.fromRGB(10, 10, 20)            -- Slightly lighter black
+        NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(0, 255, 255)            -- Cyan border (glows!)
+        NEVERLOSE.Themes.ButtonBackgroundColor = Color3.fromRGB(20, 0, 40)    -- Dark purple button
+        NEVERLOSE.Themes.AccentColor = Color3.fromRGB(0, 200, 255)            -- Bright cyan
+        NEVERLOSE.Themes.HighlightColor = Color3.fromRGB(255, 20, 150)        -- Neon pink highlight
+        NEVERLOSE.Themes.TextColor = Color3.fromRGB(255, 255, 255)            -- Pure white text
     end
 end
 
