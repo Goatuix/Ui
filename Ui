@@ -195,19 +195,21 @@ function NEVERLOSE:Theme(name)
         NEVERLOSE.Themes.ButtonBackgroundColor = Color3.fromRGB(35, 30, 60)
         NEVERLOSE.Themes.AccentColor = Color3.fromRGB(230, 190, 80)
     end
-
-    if name == "obsidian luxe" then
-        NEVERLOSE.Themes.BackgroundColor = Color3.fromRGB(5, 5, 10)          -- Deep obsidian black
-        NEVERLOSE.Themes.BlackColor = Color3.fromRGB(2, 2, 5)                 -- Near-black
-        NEVERLOSE.Themes.HeaderColor = Color3.fromRGB(10, 10, 20)             -- Dark metallic
-        NEVERLOSE.Themes.TraceColor = Color3.fromRGB(20, 20, 40)              -- Subtle glow
-        NEVERLOSE.Themes.MainColor = Color3.fromRGB(0, 200, 255)              -- Vivid electric blue
-        NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(0, 50, 80)            -- Deep blue shadow
-        NEVERLOSE.Themes.SectionColor = Color3.fromRGB(15, 15, 25)            -- Dark panel
-        NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(100, 180, 255)          -- Light blue border
-        NEVERLOSE.Themes.ButtonBackgroundColor = Color3.fromRGB(10, 15, 25)   -- Dark button
-        NEVERLOSE.Themes.AccentColor = Color3.fromRGB(200, 200, 220)          -- Metallic silver
-        NEVERLOSE.Themes.HighlightColor = Color3.fromRGB(0, 255, 255)         -- Cyan highlight
+    
+    if name == "royal gold2" then
+        NEVERLOSE.Themes.BackgroundColor = Color3.fromRGB(20, 15, 35)  -- Deep purple base
+        NEVERLOSE.Themes.BlackColor = Color3.fromRGB(10, 5, 20)       -- Darker purple
+        NEVERLOSE.Themes.HeaderColor = Color3.fromRGB(25, 20, 45)     -- Medium purple
+        NEVERLOSE.Themes.TraceColor = Color3.fromRGB(40, 30, 70)      -- Glowing purple
+        NEVERLOSE.Themes.MainColor = Color3.fromRGB(212, 175, 55)     -- Rich gold
+        NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(50, 40, 20)   -- Darkened gold shadow
+        NEVERLOSE.Themes.SectionColor = Color3.fromRGB(30, 25, 50)    -- Purple section
+        NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(212, 175, 55)   -- Gold stroke
+        NEVERLOSE.Themes.ButtonBackgroundColor = Color3.fromRGB(35, 30, 60)  -- Purple button bg
+        
+        -- SPECIAL TAB AREA OVERRIDES
+        NEVERLOSE.Themes.TabBackgroundColor = Color3.fromRGB(25, 20, 45)  -- Matches header
+        NEVERLOSE.Themes.TabBackgroundTransparency = 0.3  -- Slight transparency
     end
 end
 
