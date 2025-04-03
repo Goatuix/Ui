@@ -197,19 +197,18 @@ function NEVERLOSE:Theme(name)
     end
     
     if name == "royal gold2" then
-        NEVERLOSE.Themes.BackgroundColor = Color3.fromRGB(20, 15, 35)  -- Deep purple base
-        NEVERLOSE.Themes.BlackColor = Color3.fromRGB(10, 5, 20)       -- Darker purple
-        NEVERLOSE.Themes.HeaderColor = Color3.fromRGB(25, 20, 45)     -- Medium purple
-        NEVERLOSE.Themes.TraceColor = Color3.fromRGB(40, 30, 70)      -- Glowing purple
-        NEVERLOSE.Themes.MainColor = Color3.fromRGB(212, 175, 55)     -- Rich gold
-        NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(50, 40, 20)   -- Darkened gold shadow
-        NEVERLOSE.Themes.SectionColor = Color3.fromRGB(30, 25, 50)    -- Purple section
-        NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(212, 175, 55)   -- Gold stroke
-        NEVERLOSE.Themes.ButtonBackgroundColor = Color3.fromRGB(35, 30, 60)  -- Purple button bg
+        -- ONLY change the background color to blue
+        NEVERLOSE.Themes.BackgroundColor = Color3.fromRGB(15, 25, 45)  -- Deep royal blue
         
-        -- SPECIAL TAB AREA OVERRIDES
-        NEVERLOSE.Themes.TabBackgroundColor = Color3.fromRGB(25, 20, 45)  -- Matches header
-        NEVERLOSE.Themes.TabBackgroundTransparency = 0.3  -- Slight transparency
+        -- Keep all original gold colors
+        NEVERLOSE.Themes.BlackColor = Color3.fromRGB(10, 5, 20)
+        NEVERLOSE.Themes.HeaderColor = Color3.fromRGB(25, 20, 45)
+        NEVERLOSE.Themes.TraceColor = Color3.fromRGB(40, 30, 70)
+        NEVERLOSE.Themes.MainColor = Color3.fromRGB(212, 175, 55)     -- Gold stays
+        NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(50, 40, 20)
+        NEVERLOSE.Themes.SectionColor = Color3.fromRGB(30, 25, 50)
+        NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(212, 175, 55)   -- Gold border
+        NEVERLOSE.Themes.ButtonBackgroundColor = Color3.fromRGB(35, 30, 60)
     end
 end
 
