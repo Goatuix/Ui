@@ -1,10 +1,8 @@
 --[[	
 
 	|	EVERLOSE	UI	|
-	Fuck Synapse X
-		THIS UI MAKE BY CAT_SUS		
-		original Neverlose
-		
+	This was just asking for me to skid 
+so skided cry about it 
 		[https://neverlose.cc/] - csgo cheat
 ]]
 
@@ -216,7 +214,7 @@ end
 function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 	local WindowFunctinos={}
 	local ToggleUI=false
-	local ooldsize=UICustomSize or UDim2.new(0.200000003, 210, 0.200000003, 175)
+	local ooldsize=UICustomSize or UDim2.new(0.3, 300, 0.25, 200)
 	local Tabs={}
 
 	local ScreenGui = Instance.new("ScreenGui")
