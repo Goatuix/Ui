@@ -206,8 +206,8 @@ function NEVERLOSE:Theme(name)
         NEVERLOSE.Themes.ButtonBackgroundColor = Color3.fromRGB(25, 40, 80) -- Dark blue button
         
         -- Special tab colors
-        NEVERLOSE.Themes.TabBackgroundColor = Color3.fromRGB(15, 25, 60)   -- Matches header
-        NEVERLOSE.Themes.TabBackgroundTransparency = 0.25                  -- Slight transparency
+        NEVERLOSE.Themes.TabBackgroundColor = Color3.fromRGB(20, 35, 75)   -- Matches header
+        NEVERLOSE.Themes.TabBackgroundTransparency = 0.2                  -- Slight transparency
     end
 end
 
