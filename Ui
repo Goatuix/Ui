@@ -106,6 +106,10 @@ local function GetImageData(name:string, image:ImageLabel)
 	if name == "mouse" then
 		image.Image = "rbxassetid://3515393063"
 	end
+   
+  if name == "custom" then
+    image.Image = "rbxassetid://9402146036"
+end
 
 	if name == "user" then
 		image.Image = "rbxassetid://10494577250"
