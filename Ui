@@ -157,7 +157,6 @@ local function GetImageData(name:string, image:ImageLabel)
         image.ImageRectOffset = Vector2.new(164, 204)
         image.ImageRectSize = Vector2.new(35, 35)
     end
-end
 
 	if name == "mouse" then
 		image.Image = "rbxassetid://3515393063"
