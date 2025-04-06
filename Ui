@@ -62,45 +62,102 @@ local function scrolling_connect(scrollframe:ScrollingFrame)
 	end)
 end
 
-local function GetImageData(name:string,image:ImageLabel)
-	name = name or "ADS"
-	name = name:lower()
-	local NigImage = "rbxassetid://3926305904"
-	if name == "ads" then
-		image.Image = NigImage
-		image.ImageRectOffset = Vector2.new(205,565)
-		image.ImageRectSize = Vector2.new(35,35)
-	end
+local function GetImageData(name:string, image:ImageLabel)
+    name = name or "ADS"
+    name = name:lower()
+    local NigImage = "rbxassetid://3926305904"
 
-	if name == "list" then
-		image.Image = NigImage
-		image.ImageRectOffset = Vector2.new(485,205)
-		image.ImageRectSize = Vector2.new(35,35)
-	end
+    if name == "ads" then
+        image.Image = NigImage
+        image.ImageRectOffset = Vector2.new(205, 565)
+        image.ImageRectSize = Vector2.new(35, 35)
+    end
 
-	if name == "folder" then
-		image.Image = NigImage
-		image.ImageRectOffset = Vector2.new(805,45)
-		image.ImageRectSize = Vector2.new(35,35)
-	end
+    if name == "list" then
+        image.Image = NigImage
+        image.ImageRectOffset = Vector2.new(485, 205)
+        image.ImageRectSize = Vector2.new(35, 35)
+    end
 
-	if name == "earth" then
-		image.Image = NigImage
-		image.ImageRectOffset = Vector2.new(604,324)
-		image.ImageRectSize = Vector2.new(35,35)
-	end
+    if name == "folder" then
+        image.Image = NigImage
+        image.ImageRectOffset = Vector2.new(805, 45)
+        image.ImageRectSize = Vector2.new(35, 35)
+    end
 
-	if name == "locked" then
-		image.Image = NigImage
-		image.ImageRectOffset = Vector2.new(524, 644)
-		image.ImageRectSize = Vector2.new(35,35)
-	end
+    if name == "earth" then
+        image.Image = NigImage
+        image.ImageRectOffset = Vector2.new(604, 324)
+        image.ImageRectSize = Vector2.new(35, 35)
+    end
 
-	if name == "home" then
-		image.Image = NigImage
-		image.ImageRectOffset = Vector2.new(964, 205)
-		image.ImageRectSize = Vector2.new(35,35)
-	end
+    if name == "locked" then
+        image.Image = NigImage
+        image.ImageRectOffset = Vector2.new(524, 644)
+        image.ImageRectSize = Vector2.new(35, 35)
+    end
+
+    if name == "home" then
+        image.Image = NigImage
+        image.ImageRectOffset = Vector2.new(964, 205)
+        image.ImageRectSize = Vector2.new(35, 35)
+    end
+
+    -- Additional Icons (paste below)
+    if name == "settings" then
+        image.Image = NigImage
+        image.ImageRectOffset = Vector2.new(164, 644)
+        image.ImageRectSize = Vector2.new(35, 35)
+    end
+
+    if name == "search" then
+        image.Image = NigImage
+        image.ImageRectOffset = Vector2.new(44, 644)
+        image.ImageRectSize = Vector2.new(35, 35)
+    end
+
+    if name == "star" then
+        image.Image = NigImage
+        image.ImageRectOffset = Vector2.new(844, 644)
+        image.ImageRectSize = Vector2.new(35, 35)
+    end
+
+    if name == "trash" then
+        image.Image = NigImage
+        image.ImageRectOffset = Vector2.new(284, 644)
+        image.ImageRectSize = Vector2.new(35, 35)
+    end
+
+    if name == "user" then
+        image.Image = NigImage
+        image.ImageRectOffset = Vector2.new(44, 84)
+        image.ImageRectSize = Vector2.new(35, 35)
+    end
+
+    if name == "plus" then
+        image.Image = NigImage
+        image.ImageRectOffset = Vector2.new(44, 244)
+        image.ImageRectSize = Vector2.new(35, 35)
+    end
+
+    if name == "minus" then
+        image.Image = NigImage
+        image.ImageRectOffset = Vector2.new(204, 244)
+        image.ImageRectSize = Vector2.new(35, 35)
+    end
+
+    if name == "play" then
+        image.Image = NigImage
+        image.ImageRectOffset = Vector2.new(124, 204)
+        image.ImageRectSize = Vector2.new(35, 35)
+    end
+
+    if name == "pause" then
+        image.Image = NigImage
+        image.ImageRectOffset = Vector2.new(164, 204)
+        image.ImageRectSize = Vector2.new(35, 35)
+    end
+end
 
 	if name == "mouse" then
 		image.Image = "rbxassetid://3515393063"
